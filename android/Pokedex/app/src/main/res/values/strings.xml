@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="title_pokemon_detail">Pokemon Detail</string>
+</resources>
