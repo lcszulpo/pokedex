@@ -4,7 +4,7 @@ The Pokédex (ポケモン図鑑 Pokemon Zukan) is an electronic device designed
 
 ## Android
 
-The Android app are made with Kotlin language, as expected, I have not encountered any performance issues in low specs smartphones.
+The Android app are made with Kotlin language. I have spent 5 hours to make the Android version. As expected, I have not encountered any performance issues in low specs smartphones.
 
 ![pokedex](https://github.com/lcszulpo/pokedex/blob/master/images/pokedex.png)
 
@@ -13,3 +13,5 @@ The Android app are made with Kotlin language, as expected, I have not encounter
 ## Ionic
 
 ## React Native
+
+I have spent 12 hours to make the React Native, most of the time i spent trying to fix a problem with the read of .csv files and trying to made the Master Detail layout with an elegant code. To run in Android with better performance, try to run ```react-native run-android --variant=release```.
