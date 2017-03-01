@@ -8,6 +8,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     margin: 2,
   },
+  horizontalContainer: {
+    flexDirection: 'row',
+  },
+  pokemonDetail: {
+    flex: 1,
+  },
   image: {
     width: 60,
     height: 60,
@@ -18,6 +24,11 @@ const styles = StyleSheet.create({
   genus: {
     flex: 1,
     textAlign: 'right',
+  },
+  line: {
+    backgroundColor: '#c5c5c5',
+    width: 1,
+    margin: 5,
   }
 });
 

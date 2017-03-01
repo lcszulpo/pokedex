@@ -1,0 +1,27 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    margin: 13,
+  },
+  image: {
+    alignSelf: 'center',
+    width: 120,
+    height: 120,
+  },
+  title: {
+    alignSelf: 'center',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  textContainer: {
+    flexDirection: 'row',
+  },
+  text: {
+    marginLeft: 3,
+    marginTop: 5,
+    fontSize: 16,
+  },
+});
+
+export default styles;

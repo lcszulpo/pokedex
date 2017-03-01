@@ -11,7 +11,7 @@ import styles from '@components/NavigationBar/styles';
 class NavigationBar extends Component {
 
   render() {
-    const title = this.props.title;
+    const title = this.props.title ? this.props.title : '';
 
     const titleTintColor =
       this.props.titleTintColor ? this.props.titleTintColor : '#FFFFFF';

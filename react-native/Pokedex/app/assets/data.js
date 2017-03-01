@@ -1,10 +1,10 @@
 import { Platform } from 'react-native';
 
-import pokemon from './data/pokemon.json';
+import pokemons from './data/pokemon.json';
 import pokemonList from './data/pokemon_names.json';
 
 const data = {
-  pokemon,
+  pokemons,
   pokemonList,
 };
 
