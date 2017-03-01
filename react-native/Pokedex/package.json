@@ -10,7 +10,7 @@
     "react": "15.4.2",
     "react-native": "0.41.2",
     "react-native-device-info": "^0.9.9",
-    "react-native-orientation": "^1.17.0"
+    "react-native-orientation": "yamill/react-native-orientation"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",

@@ -20,8 +20,7 @@ class NavigationBar extends Component {
       this.props.statusBarStyle ? this.props.statusBarStyle : 'light-content';
 
     const statusBarTintColor =
-      (Platform.OS === 'ios') ? this.props.navigationBarTintColor :
-        this.props.statusBarTintColor ? this.props.statusBarTintColor : '#C62828';
+      this.props.statusBarTintColor ? this.props.statusBarTintColor : '#C62828';
 
     const navigationBarTintColor =
       this.props.navigationBarTintColor ? this.props.navigationBarTintColor : '#EF5350';

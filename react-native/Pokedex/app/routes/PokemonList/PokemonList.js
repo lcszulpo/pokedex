@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navigator, Dimensions, InteractionManager, View, ListView, Image, Text, TouchableHighlight, Alert } from 'react-native';
+import { Navigator, Dimensions, InteractionManager, View, ListView, Image, Text, TouchableOpacity, Alert } from 'react-native';
 
 import Data from '@assets/data';
 import images from '@assets/images';
@@ -115,13 +115,13 @@ class PokemonList extends Component {
     };
 
     const Row = (props) => (
-      <TouchableHighlight onPress={() => this.onRowClick(props.id)}>
+      <TouchableOpacity onPress={() => this.onRowClick(props.id)}>
         <View style={styles.container}>
           <Image source={source(props.id)} style={styles.image} />
           <Text style={styles.name}>{props.name}</Text>
           <Text style={styles.genus}>{props.genus}</Text>
         </View>
-      </TouchableHighlight>
+      </TouchableOpacity>
     );
 
     const view = this.state.isToShowPokemonInSameScreen ?
@@ -133,7 +133,6 @@ class PokemonList extends Component {
               renderRow={(rowData) => <Row {...rowData} />}
               enableEmptySections
               initialListSize={1}
-              scrollRenderAheadDistance={10}
               removeClippedSubviews
               style={{width: 300}}
             />
