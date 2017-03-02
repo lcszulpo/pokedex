@@ -1,0 +1,3607 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "genus": "Seed"
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "genus": "Seed"
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "genus": "Seed"
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "genus": "Lizard"
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "genus": "Flame"
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "genus": "Flame"
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "genus": "Tiny Turtle"
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "genus": "Turtle"
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "genus": "Shellfish"
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "genus": "Worm"
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "genus": "Cocoon"
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "genus": "Butterfly"
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "genus": "Hairy Bug"
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "genus": "Cocoon"
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "genus": "Poison Bee"
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "genus": "Tiny Bird"
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "genus": "Bird"
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "genus": "Bird"
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "genus": "Mouse"
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "genus": "Mouse"
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "genus": "Tiny Bird"
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "genus": "Beak"
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "genus": "Snake"
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "genus": "Cobra"
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "genus": "Mouse"
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "genus": "Mouse"
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "genus": "Mouse"
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "genus": "Mouse"
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "genus": "Poison Pin"
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "genus": "Poison Pin"
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "genus": "Drill"
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "genus": "Poison Pin"
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "genus": "Poison Pin"
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "genus": "Drill"
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "genus": "Fairy"
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "genus": "Fairy"
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "genus": "Fox"
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "genus": "Fox"
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "genus": "Balloon"
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "genus": "Balloon"
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "genus": "Bat"
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "genus": "Bat"
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "genus": "Weed"
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "genus": "Weed"
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "genus": "Flower"
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "genus": "Mushroom"
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "genus": "Mushroom"
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "genus": "Insect"
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "genus": "Poison Moth"
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "genus": "Mole"
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "genus": "Mole"
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "genus": "Scratch Cat"
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "genus": "Classy Cat"
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "genus": "Duck"
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "genus": "Duck"
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "genus": "Pig Monkey"
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "genus": "Pig Monkey"
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "genus": "Puppy"
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "genus": "Legendary"
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "genus": "Tadpole"
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "genus": "Tadpole"
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "genus": "Tadpole"
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "genus": "Psi"
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "genus": "Psi"
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "genus": "Psi"
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "genus": "Superpower"
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "genus": "Superpower"
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "genus": "Superpower"
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "genus": "Flower"
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "genus": "Flycatcher"
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "genus": "Flycatcher"
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "genus": "Jellyfish"
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "genus": "Jellyfish"
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "genus": "Rock"
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "genus": "Rock"
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "genus": "Megaton"
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "genus": "Fire Horse"
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "genus": "Fire Horse"
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "genus": "Dopey"
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "genus": "Hermit Crab"
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "genus": "Magnet"
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "genus": "Magnet"
+  },
+  {
+    "id": 83,
+    "name": "Farfetch'd",
+    "genus": "Wild Duck"
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "genus": "Twin Bird"
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "genus": "Triple Bird"
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "genus": "Sea Lion"
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "genus": "Sea Lion"
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "genus": "Sludge"
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "genus": "Sludge"
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "genus": "Bivalve"
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "genus": "Bivalve"
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "genus": "Gas"
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "genus": "Gas"
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "genus": "Shadow"
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "genus": "Rock Snake"
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "genus": "Hypnosis"
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "genus": "Hypnosis"
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "genus": "River Crab"
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "genus": "Pincer"
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "genus": "Ball"
+  },
+  {
+    "id": 101,
+    "name": "Electrode",
+    "genus": "Ball"
+  },
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "genus": "Egg"
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "genus": "Coconut"
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "genus": "Lonely"
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "genus": "Bone Keeper"
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "genus": "Kicking"
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "genus": "Punching"
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "genus": "Licking"
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "genus": "Poison Gas"
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "genus": "Poison Gas"
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "genus": "Spikes"
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "genus": "Drill"
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "genus": "Egg"
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "genus": "Vine"
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "genus": "Parent"
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "genus": "Dragon"
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "genus": "Dragon"
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "genus": "Goldfish"
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "genus": "Goldfish"
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "genus": "Star Shape"
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "genus": "Mysterious"
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "genus": "Barrier"
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "genus": "Mantis"
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "genus": "Human Shape"
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "genus": "Electric"
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "genus": "Spitfire"
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "genus": "Stag Beetle"
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "genus": "Wild Bull"
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "genus": "Fish"
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "genus": "Atrocious"
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "genus": "Transport"
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "genus": "Transform"
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "genus": "Evolution"
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "genus": "Bubble Jet"
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "genus": "Lightning"
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "genus": "Flame"
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "genus": "Virtual"
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "genus": "Spiral"
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "genus": "Spiral"
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "genus": "Shellfish"
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "genus": "Shellfish"
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "genus": "Fossil"
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "genus": "Sleeping"
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "genus": "Freeze"
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "genus": "Electric"
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "genus": "Flame"
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "genus": "Dragon"
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "genus": "Dragon"
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "genus": "Dragon"
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "genus": "Genetic"
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "genus": "New Species"
+  },
+  {
+    "id": 152,
+    "name": "Chikorita",
+    "genus": "Leaf"
+  },
+  {
+    "id": 153,
+    "name": "Bayleef",
+    "genus": "Leaf"
+  },
+  {
+    "id": 154,
+    "name": "Meganium",
+    "genus": "Herb"
+  },
+  {
+    "id": 155,
+    "name": "Cyndaquil",
+    "genus": "Fire Mouse"
+  },
+  {
+    "id": 156,
+    "name": "Quilava",
+    "genus": "Volcano"
+  },
+  {
+    "id": 157,
+    "name": "Typhlosion",
+    "genus": "Volcano"
+  },
+  {
+    "id": 158,
+    "name": "Totodile",
+    "genus": "Big Jaw"
+  },
+  {
+    "id": 159,
+    "name": "Croconaw",
+    "genus": "Big Jaw"
+  },
+  {
+    "id": 160,
+    "name": "Feraligatr",
+    "genus": "Big Jaw"
+  },
+  {
+    "id": 161,
+    "name": "Sentret",
+    "genus": "Scout"
+  },
+  {
+    "id": 162,
+    "name": "Furret",
+    "genus": "Long Body"
+  },
+  {
+    "id": 163,
+    "name": "Hoothoot",
+    "genus": "Owl"
+  },
+  {
+    "id": 164,
+    "name": "Noctowl",
+    "genus": "Owl"
+  },
+  {
+    "id": 165,
+    "name": "Ledyba",
+    "genus": "Five Star"
+  },
+  {
+    "id": 166,
+    "name": "Ledian",
+    "genus": "Five Star"
+  },
+  {
+    "id": 167,
+    "name": "Spinarak",
+    "genus": "String Spit"
+  },
+  {
+    "id": 168,
+    "name": "Ariados",
+    "genus": "Long Leg"
+  },
+  {
+    "id": 169,
+    "name": "Crobat",
+    "genus": "Bat"
+  },
+  {
+    "id": 170,
+    "name": "Chinchou",
+    "genus": "Angler"
+  },
+  {
+    "id": 171,
+    "name": "Lanturn",
+    "genus": "Light"
+  },
+  {
+    "id": 172,
+    "name": "Pichu",
+    "genus": "Tiny Mouse"
+  },
+  {
+    "id": 173,
+    "name": "Cleffa",
+    "genus": "Star Shape"
+  },
+  {
+    "id": 174,
+    "name": "Igglybuff",
+    "genus": "Balloon"
+  },
+  {
+    "id": 175,
+    "name": "Togepi",
+    "genus": "Spike Ball"
+  },
+  {
+    "id": 176,
+    "name": "Togetic",
+    "genus": "Happiness"
+  },
+  {
+    "id": 177,
+    "name": "Natu",
+    "genus": "Tiny Bird"
+  },
+  {
+    "id": 178,
+    "name": "Xatu",
+    "genus": "Mystic"
+  },
+  {
+    "id": 179,
+    "name": "Mareep",
+    "genus": "Wool"
+  },
+  {
+    "id": 180,
+    "name": "Flaaffy",
+    "genus": "Wool"
+  },
+  {
+    "id": 181,
+    "name": "Ampharos",
+    "genus": "Light"
+  },
+  {
+    "id": 182,
+    "name": "Bellossom",
+    "genus": "Flower"
+  },
+  {
+    "id": 183,
+    "name": "Marill",
+    "genus": "Aqua Mouse"
+  },
+  {
+    "id": 184,
+    "name": "Azumarill",
+    "genus": "Aqua Rabbit"
+  },
+  {
+    "id": 185,
+    "name": "Sudowoodo",
+    "genus": "Imitation"
+  },
+  {
+    "id": 186,
+    "name": "Politoed",
+    "genus": "Frog"
+  },
+  {
+    "id": 187,
+    "name": "Hoppip",
+    "genus": "Cottonweed"
+  },
+  {
+    "id": 188,
+    "name": "Skiploom",
+    "genus": "Cottonweed"
+  },
+  {
+    "id": 189,
+    "name": "Jumpluff",
+    "genus": "Cottonweed"
+  },
+  {
+    "id": 190,
+    "name": "Aipom",
+    "genus": "Long Tail"
+  },
+  {
+    "id": 191,
+    "name": "Sunkern",
+    "genus": "Seed"
+  },
+  {
+    "id": 192,
+    "name": "Sunflora",
+    "genus": "Sun"
+  },
+  {
+    "id": 193,
+    "name": "Yanma",
+    "genus": "Clear Wing"
+  },
+  {
+    "id": 194,
+    "name": "Wooper",
+    "genus": "Water Fish"
+  },
+  {
+    "id": 195,
+    "name": "Quagsire",
+    "genus": "Water Fish"
+  },
+  {
+    "id": 196,
+    "name": "Espeon",
+    "genus": "Sun"
+  },
+  {
+    "id": 197,
+    "name": "Umbreon",
+    "genus": "Moonlight"
+  },
+  {
+    "id": 198,
+    "name": "Murkrow",
+    "genus": "Darkness"
+  },
+  {
+    "id": 199,
+    "name": "Slowking",
+    "genus": "Royal"
+  },
+  {
+    "id": 200,
+    "name": "Misdreavus",
+    "genus": "Screech"
+  },
+  {
+    "id": 201,
+    "name": "Unown",
+    "genus": "Symbol"
+  },
+  {
+    "id": 202,
+    "name": "Wobbuffet",
+    "genus": "Patient"
+  },
+  {
+    "id": 203,
+    "name": "Girafarig",
+    "genus": "Long Neck"
+  },
+  {
+    "id": 204,
+    "name": "Pineco",
+    "genus": "Bagworm"
+  },
+  {
+    "id": 205,
+    "name": "Forretress",
+    "genus": "Bagworm"
+  },
+  {
+    "id": 206,
+    "name": "Dunsparce",
+    "genus": "Land Snake"
+  },
+  {
+    "id": 207,
+    "name": "Gligar",
+    "genus": "Fly Scorpion"
+  },
+  {
+    "id": 208,
+    "name": "Steelix",
+    "genus": "Iron Snake"
+  },
+  {
+    "id": 209,
+    "name": "Snubbull",
+    "genus": "Fairy"
+  },
+  {
+    "id": 210,
+    "name": "Granbull",
+    "genus": "Fairy"
+  },
+  {
+    "id": 211,
+    "name": "Qwilfish",
+    "genus": "Balloon"
+  },
+  {
+    "id": 212,
+    "name": "Scizor",
+    "genus": "Pincer"
+  },
+  {
+    "id": 213,
+    "name": "Shuckle",
+    "genus": "Mold"
+  },
+  {
+    "id": 214,
+    "name": "Heracross",
+    "genus": "Single Horn"
+  },
+  {
+    "id": 215,
+    "name": "Sneasel",
+    "genus": "Sharp Claw"
+  },
+  {
+    "id": 216,
+    "name": "Teddiursa",
+    "genus": "Little Bear"
+  },
+  {
+    "id": 217,
+    "name": "Ursaring",
+    "genus": "Hibernator"
+  },
+  {
+    "id": 218,
+    "name": "Slugma",
+    "genus": "Lava"
+  },
+  {
+    "id": 219,
+    "name": "Magcargo",
+    "genus": "Lava"
+  },
+  {
+    "id": 220,
+    "name": "Swinub",
+    "genus": "Pig"
+  },
+  {
+    "id": 221,
+    "name": "Piloswine",
+    "genus": "Swine"
+  },
+  {
+    "id": 222,
+    "name": "Corsola",
+    "genus": "Coral"
+  },
+  {
+    "id": 223,
+    "name": "Remoraid",
+    "genus": "Jet"
+  },
+  {
+    "id": 224,
+    "name": "Octillery",
+    "genus": "Jet"
+  },
+  {
+    "id": 225,
+    "name": "Delibird",
+    "genus": "Delivery"
+  },
+  {
+    "id": 226,
+    "name": "Mantine",
+    "genus": "Kite"
+  },
+  {
+    "id": 227,
+    "name": "Skarmory",
+    "genus": "Armor Bird"
+  },
+  {
+    "id": 228,
+    "name": "Houndour",
+    "genus": "Dark"
+  },
+  {
+    "id": 229,
+    "name": "Houndoom",
+    "genus": "Dark"
+  },
+  {
+    "id": 230,
+    "name": "Kingdra",
+    "genus": "Dragon"
+  },
+  {
+    "id": 231,
+    "name": "Phanpy",
+    "genus": "Long Nose"
+  },
+  {
+    "id": 232,
+    "name": "Donphan",
+    "genus": "Armor"
+  },
+  {
+    "id": 233,
+    "name": "Porygon2",
+    "genus": "Virtual"
+  },
+  {
+    "id": 234,
+    "name": "Stantler",
+    "genus": "Big Horn"
+  },
+  {
+    "id": 235,
+    "name": "Smeargle",
+    "genus": "Painter"
+  },
+  {
+    "id": 236,
+    "name": "Tyrogue",
+    "genus": "Scuffle"
+  },
+  {
+    "id": 237,
+    "name": "Hitmontop",
+    "genus": "Handstand"
+  },
+  {
+    "id": 238,
+    "name": "Smoochum",
+    "genus": "Kiss"
+  },
+  {
+    "id": 239,
+    "name": "Elekid",
+    "genus": "Electric"
+  },
+  {
+    "id": 240,
+    "name": "Magby",
+    "genus": "Live Coal"
+  },
+  {
+    "id": 241,
+    "name": "Miltank",
+    "genus": "Milk Cow"
+  },
+  {
+    "id": 242,
+    "name": "Blissey",
+    "genus": "Happiness"
+  },
+  {
+    "id": 243,
+    "name": "Raikou",
+    "genus": "Thunder"
+  },
+  {
+    "id": 244,
+    "name": "Entei",
+    "genus": "Volcano"
+  },
+  {
+    "id": 245,
+    "name": "Suicune",
+    "genus": "Aurora"
+  },
+  {
+    "id": 246,
+    "name": "Larvitar",
+    "genus": "Rock Skin"
+  },
+  {
+    "id": 247,
+    "name": "Pupitar",
+    "genus": "Hard Shell"
+  },
+  {
+    "id": 248,
+    "name": "Tyranitar",
+    "genus": "Armor"
+  },
+  {
+    "id": 249,
+    "name": "Lugia",
+    "genus": "Diving"
+  },
+  {
+    "id": 250,
+    "name": "Ho-Oh",
+    "genus": "Rainbow"
+  },
+  {
+    "id": 251,
+    "name": "Celebi",
+    "genus": "Time Travel"
+  },
+  {
+    "id": 252,
+    "name": "Treecko",
+    "genus": "Wood Gecko"
+  },
+  {
+    "id": 253,
+    "name": "Grovyle",
+    "genus": "Wood Gecko"
+  },
+  {
+    "id": 254,
+    "name": "Sceptile",
+    "genus": "Forest"
+  },
+  {
+    "id": 255,
+    "name": "Torchic",
+    "genus": "Chick"
+  },
+  {
+    "id": 256,
+    "name": "Combusken",
+    "genus": "Young Fowl"
+  },
+  {
+    "id": 257,
+    "name": "Blaziken",
+    "genus": "Blaze"
+  },
+  {
+    "id": 258,
+    "name": "Mudkip",
+    "genus": "Mud Fish"
+  },
+  {
+    "id": 259,
+    "name": "Marshtomp",
+    "genus": "Mud Fish"
+  },
+  {
+    "id": 260,
+    "name": "Swampert",
+    "genus": "Mud Fish"
+  },
+  {
+    "id": 261,
+    "name": "Poochyena",
+    "genus": "Bite"
+  },
+  {
+    "id": 262,
+    "name": "Mightyena",
+    "genus": "Bite"
+  },
+  {
+    "id": 263,
+    "name": "Zigzagoon",
+    "genus": "Tiny Raccoon"
+  },
+  {
+    "id": 264,
+    "name": "Linoone",
+    "genus": "Rushing"
+  },
+  {
+    "id": 265,
+    "name": "Wurmple",
+    "genus": "Worm"
+  },
+  {
+    "id": 266,
+    "name": "Silcoon",
+    "genus": "Cocoon"
+  },
+  {
+    "id": 267,
+    "name": "Beautifly",
+    "genus": "Butterfly"
+  },
+  {
+    "id": 268,
+    "name": "Cascoon",
+    "genus": "Cocoon"
+  },
+  {
+    "id": 269,
+    "name": "Dustox",
+    "genus": "Poison Moth"
+  },
+  {
+    "id": 270,
+    "name": "Lotad",
+    "genus": "Water Weed"
+  },
+  {
+    "id": 271,
+    "name": "Lombre",
+    "genus": "Jolly"
+  },
+  {
+    "id": 272,
+    "name": "Ludicolo",
+    "genus": "Carefree"
+  },
+  {
+    "id": 273,
+    "name": "Seedot",
+    "genus": "Acorn"
+  },
+  {
+    "id": 274,
+    "name": "Nuzleaf",
+    "genus": "Wily"
+  },
+  {
+    "id": 275,
+    "name": "Shiftry",
+    "genus": "Wicked"
+  },
+  {
+    "id": 276,
+    "name": "Taillow",
+    "genus": "Tiny Swallow"
+  },
+  {
+    "id": 277,
+    "name": "Swellow",
+    "genus": "Swallow"
+  },
+  {
+    "id": 278,
+    "name": "Wingull",
+    "genus": "Seagull"
+  },
+  {
+    "id": 279,
+    "name": "Pelipper",
+    "genus": "Water Bird"
+  },
+  {
+    "id": 280,
+    "name": "Ralts",
+    "genus": "Feeling"
+  },
+  {
+    "id": 281,
+    "name": "Kirlia",
+    "genus": "Emotion"
+  },
+  {
+    "id": 282,
+    "name": "Gardevoir",
+    "genus": "Embrace"
+  },
+  {
+    "id": 283,
+    "name": "Surskit",
+    "genus": "Pond Skater"
+  },
+  {
+    "id": 284,
+    "name": "Masquerain",
+    "genus": "Eyeball"
+  },
+  {
+    "id": 285,
+    "name": "Shroomish",
+    "genus": "Mushroom"
+  },
+  {
+    "id": 286,
+    "name": "Breloom",
+    "genus": "Mushroom"
+  },
+  {
+    "id": 287,
+    "name": "Slakoth",
+    "genus": "Slacker"
+  },
+  {
+    "id": 288,
+    "name": "Vigoroth",
+    "genus": "Wild Monkey"
+  },
+  {
+    "id": 289,
+    "name": "Slaking",
+    "genus": "Lazy"
+  },
+  {
+    "id": 290,
+    "name": "Nincada",
+    "genus": "Trainee"
+  },
+  {
+    "id": 291,
+    "name": "Ninjask",
+    "genus": "Ninja"
+  },
+  {
+    "id": 292,
+    "name": "Shedinja",
+    "genus": "Shed"
+  },
+  {
+    "id": 293,
+    "name": "Whismur",
+    "genus": "Whisper"
+  },
+  {
+    "id": 294,
+    "name": "Loudred",
+    "genus": "Big Voice"
+  },
+  {
+    "id": 295,
+    "name": "Exploud",
+    "genus": "Loud Noise"
+  },
+  {
+    "id": 296,
+    "name": "Makuhita",
+    "genus": "Guts"
+  },
+  {
+    "id": 297,
+    "name": "Hariyama",
+    "genus": "Arm Thrust"
+  },
+  {
+    "id": 298,
+    "name": "Azurill",
+    "genus": "Polka Dot"
+  },
+  {
+    "id": 299,
+    "name": "Nosepass",
+    "genus": "Compass"
+  },
+  {
+    "id": 300,
+    "name": "Skitty",
+    "genus": "Kitten"
+  },
+  {
+    "id": 301,
+    "name": "Delcatty",
+    "genus": "Prim"
+  },
+  {
+    "id": 302,
+    "name": "Sableye",
+    "genus": "Darkness"
+  },
+  {
+    "id": 303,
+    "name": "Mawile",
+    "genus": "Deceiver"
+  },
+  {
+    "id": 304,
+    "name": "Aron",
+    "genus": "Iron Armor"
+  },
+  {
+    "id": 305,
+    "name": "Lairon",
+    "genus": "Iron Armor"
+  },
+  {
+    "id": 306,
+    "name": "Aggron",
+    "genus": "Iron Armor"
+  },
+  {
+    "id": 307,
+    "name": "Meditite",
+    "genus": "Meditate"
+  },
+  {
+    "id": 308,
+    "name": "Medicham",
+    "genus": "Meditate"
+  },
+  {
+    "id": 309,
+    "name": "Electrike",
+    "genus": "Lightning"
+  },
+  {
+    "id": 310,
+    "name": "Manectric",
+    "genus": "Discharge"
+  },
+  {
+    "id": 311,
+    "name": "Plusle",
+    "genus": "Cheering"
+  },
+  {
+    "id": 312,
+    "name": "Minun",
+    "genus": "Cheering"
+  },
+  {
+    "id": 313,
+    "name": "Volbeat",
+    "genus": "Firefly"
+  },
+  {
+    "id": 314,
+    "name": "Illumise",
+    "genus": "Firefly"
+  },
+  {
+    "id": 315,
+    "name": "Roselia",
+    "genus": "Thorn"
+  },
+  {
+    "id": 316,
+    "name": "Gulpin",
+    "genus": "Stomach"
+  },
+  {
+    "id": 317,
+    "name": "Swalot",
+    "genus": "Poison Bag"
+  },
+  {
+    "id": 318,
+    "name": "Carvanha",
+    "genus": "Savage"
+  },
+  {
+    "id": 319,
+    "name": "Sharpedo",
+    "genus": "Brutal"
+  },
+  {
+    "id": 320,
+    "name": "Wailmer",
+    "genus": "Ball Whale"
+  },
+  {
+    "id": 321,
+    "name": "Wailord",
+    "genus": "Float Whale"
+  },
+  {
+    "id": 322,
+    "name": "Numel",
+    "genus": "Numb"
+  },
+  {
+    "id": 323,
+    "name": "Camerupt",
+    "genus": "Eruption"
+  },
+  {
+    "id": 324,
+    "name": "Torkoal",
+    "genus": "Coal"
+  },
+  {
+    "id": 325,
+    "name": "Spoink",
+    "genus": "Bounce"
+  },
+  {
+    "id": 326,
+    "name": "Grumpig",
+    "genus": "Manipulate"
+  },
+  {
+    "id": 327,
+    "name": "Spinda",
+    "genus": "Spot Panda"
+  },
+  {
+    "id": 328,
+    "name": "Trapinch",
+    "genus": "Ant Pit"
+  },
+  {
+    "id": 329,
+    "name": "Vibrava",
+    "genus": "Vibration"
+  },
+  {
+    "id": 330,
+    "name": "Flygon",
+    "genus": "Mystic"
+  },
+  {
+    "id": 331,
+    "name": "Cacnea",
+    "genus": "Cactus"
+  },
+  {
+    "id": 332,
+    "name": "Cacturne",
+    "genus": "Scarecrow"
+  },
+  {
+    "id": 333,
+    "name": "Swablu",
+    "genus": "Cotton Bird"
+  },
+  {
+    "id": 334,
+    "name": "Altaria",
+    "genus": "Humming"
+  },
+  {
+    "id": 335,
+    "name": "Zangoose",
+    "genus": "Cat Ferret"
+  },
+  {
+    "id": 336,
+    "name": "Seviper",
+    "genus": "Fang Snake"
+  },
+  {
+    "id": 337,
+    "name": "Lunatone",
+    "genus": "Meteorite"
+  },
+  {
+    "id": 338,
+    "name": "Solrock",
+    "genus": "Meteorite"
+  },
+  {
+    "id": 339,
+    "name": "Barboach",
+    "genus": "Whiskers"
+  },
+  {
+    "id": 340,
+    "name": "Whiscash",
+    "genus": "Whiskers"
+  },
+  {
+    "id": 341,
+    "name": "Corphish",
+    "genus": "Ruffian"
+  },
+  {
+    "id": 342,
+    "name": "Crawdaunt",
+    "genus": "Rogue"
+  },
+  {
+    "id": 343,
+    "name": "Baltoy",
+    "genus": "Clay Doll"
+  },
+  {
+    "id": 344,
+    "name": "Claydol",
+    "genus": "Clay Doll"
+  },
+  {
+    "id": 345,
+    "name": "Lileep",
+    "genus": "Sea Lily"
+  },
+  {
+    "id": 346,
+    "name": "Cradily",
+    "genus": "Barnacle"
+  },
+  {
+    "id": 347,
+    "name": "Anorith",
+    "genus": "Old Shrimp"
+  },
+  {
+    "id": 348,
+    "name": "Armaldo",
+    "genus": "Plate"
+  },
+  {
+    "id": 349,
+    "name": "Feebas",
+    "genus": "Fish"
+  },
+  {
+    "id": 350,
+    "name": "Milotic",
+    "genus": "Tender"
+  },
+  {
+    "id": 351,
+    "name": "Castform",
+    "genus": "Weather"
+  },
+  {
+    "id": 352,
+    "name": "Kecleon",
+    "genus": "Color Swap"
+  },
+  {
+    "id": 353,
+    "name": "Shuppet",
+    "genus": "Puppet"
+  },
+  {
+    "id": 354,
+    "name": "Banette",
+    "genus": "Marionette"
+  },
+  {
+    "id": 355,
+    "name": "Duskull",
+    "genus": "Requiem"
+  },
+  {
+    "id": 356,
+    "name": "Dusclops",
+    "genus": "Beckon"
+  },
+  {
+    "id": 357,
+    "name": "Tropius",
+    "genus": "Fruit"
+  },
+  {
+    "id": 358,
+    "name": "Chimecho",
+    "genus": "Wind Chime"
+  },
+  {
+    "id": 359,
+    "name": "Absol",
+    "genus": "Disaster"
+  },
+  {
+    "id": 360,
+    "name": "Wynaut",
+    "genus": "Bright"
+  },
+  {
+    "id": 361,
+    "name": "Snorunt",
+    "genus": "Snow Hat"
+  },
+  {
+    "id": 362,
+    "name": "Glalie",
+    "genus": "Face"
+  },
+  {
+    "id": 363,
+    "name": "Spheal",
+    "genus": "Clap"
+  },
+  {
+    "id": 364,
+    "name": "Sealeo",
+    "genus": "Ball Roll"
+  },
+  {
+    "id": 365,
+    "name": "Walrein",
+    "genus": "Ice Break"
+  },
+  {
+    "id": 366,
+    "name": "Clamperl",
+    "genus": "Bivalve"
+  },
+  {
+    "id": 367,
+    "name": "Huntail",
+    "genus": "Deep Sea"
+  },
+  {
+    "id": 368,
+    "name": "Gorebyss",
+    "genus": "South Sea"
+  },
+  {
+    "id": 369,
+    "name": "Relicanth",
+    "genus": "Longevity"
+  },
+  {
+    "id": 370,
+    "name": "Luvdisc",
+    "genus": "Rendezvous"
+  },
+  {
+    "id": 371,
+    "name": "Bagon",
+    "genus": "Rock Head"
+  },
+  {
+    "id": 372,
+    "name": "Shelgon",
+    "genus": "Endurance"
+  },
+  {
+    "id": 373,
+    "name": "Salamence",
+    "genus": "Dragon"
+  },
+  {
+    "id": 374,
+    "name": "Beldum",
+    "genus": "Iron Ball"
+  },
+  {
+    "id": 375,
+    "name": "Metang",
+    "genus": "Iron Claw"
+  },
+  {
+    "id": 376,
+    "name": "Metagross",
+    "genus": "Iron Leg"
+  },
+  {
+    "id": 377,
+    "name": "Regirock",
+    "genus": "Rock Peak"
+  },
+  {
+    "id": 378,
+    "name": "Regice",
+    "genus": "Iceberg"
+  },
+  {
+    "id": 379,
+    "name": "Registeel",
+    "genus": "Iron"
+  },
+  {
+    "id": 380,
+    "name": "Latias",
+    "genus": "Eon"
+  },
+  {
+    "id": 381,
+    "name": "Latios",
+    "genus": "Eon"
+  },
+  {
+    "id": 382,
+    "name": "Kyogre",
+    "genus": "Sea Basin"
+  },
+  {
+    "id": 383,
+    "name": "Groudon",
+    "genus": "Continent"
+  },
+  {
+    "id": 384,
+    "name": "Rayquaza",
+    "genus": "Sky High"
+  },
+  {
+    "id": 385,
+    "name": "Jirachi",
+    "genus": "Wish"
+  },
+  {
+    "id": 386,
+    "name": "Deoxys",
+    "genus": "DNA"
+  },
+  {
+    "id": 387,
+    "name": "Turtwig",
+    "genus": "Tiny Leaf"
+  },
+  {
+    "id": 388,
+    "name": "Grotle",
+    "genus": "Grove"
+  },
+  {
+    "id": 389,
+    "name": "Torterra",
+    "genus": "Continent"
+  },
+  {
+    "id": 390,
+    "name": "Chimchar",
+    "genus": "Chimp"
+  },
+  {
+    "id": 391,
+    "name": "Monferno",
+    "genus": "Playful"
+  },
+  {
+    "id": 392,
+    "name": "Infernape",
+    "genus": "Flame"
+  },
+  {
+    "id": 393,
+    "name": "Piplup",
+    "genus": "Penguin"
+  },
+  {
+    "id": 394,
+    "name": "Prinplup",
+    "genus": "Penguin"
+  },
+  {
+    "id": 395,
+    "name": "Empoleon",
+    "genus": "Emperor"
+  },
+  {
+    "id": 396,
+    "name": "Starly",
+    "genus": "Starling"
+  },
+  {
+    "id": 397,
+    "name": "Staravia",
+    "genus": "Starling"
+  },
+  {
+    "id": 398,
+    "name": "Staraptor",
+    "genus": "Predator"
+  },
+  {
+    "id": 399,
+    "name": "Bidoof",
+    "genus": "Plump Mouse"
+  },
+  {
+    "id": 400,
+    "name": "Bibarel",
+    "genus": "Beaver"
+  },
+  {
+    "id": 401,
+    "name": "Kricketot",
+    "genus": "Cricket"
+  },
+  {
+    "id": 402,
+    "name": "Kricketune",
+    "genus": "Cricket"
+  },
+  {
+    "id": 403,
+    "name": "Shinx",
+    "genus": "Flash"
+  },
+  {
+    "id": 404,
+    "name": "Luxio",
+    "genus": "Spark"
+  },
+  {
+    "id": 405,
+    "name": "Luxray",
+    "genus": "Gleam Eyes"
+  },
+  {
+    "id": 406,
+    "name": "Budew",
+    "genus": "Bud"
+  },
+  {
+    "id": 407,
+    "name": "Roserade",
+    "genus": "Bouquet"
+  },
+  {
+    "id": 408,
+    "name": "Cranidos",
+    "genus": "Head Butt"
+  },
+  {
+    "id": 409,
+    "name": "Rampardos",
+    "genus": "Head Butt"
+  },
+  {
+    "id": 410,
+    "name": "Shieldon",
+    "genus": "Shield"
+  },
+  {
+    "id": 411,
+    "name": "Bastiodon",
+    "genus": "Shield"
+  },
+  {
+    "id": 412,
+    "name": "Burmy",
+    "genus": "Bagworm"
+  },
+  {
+    "id": 413,
+    "name": "Wormadam",
+    "genus": "Bagworm"
+  },
+  {
+    "id": 414,
+    "name": "Mothim",
+    "genus": "Moth"
+  },
+  {
+    "id": 415,
+    "name": "Combee",
+    "genus": "Tiny Bee"
+  },
+  {
+    "id": 416,
+    "name": "Vespiquen",
+    "genus": "Beehive"
+  },
+  {
+    "id": 417,
+    "name": "Pachirisu",
+    "genus": "EleSquirrel"
+  },
+  {
+    "id": 418,
+    "name": "Buizel",
+    "genus": "Sea Weasel"
+  },
+  {
+    "id": 419,
+    "name": "Floatzel",
+    "genus": "Sea Weasel"
+  },
+  {
+    "id": 420,
+    "name": "Cherubi",
+    "genus": "Cherry"
+  },
+  {
+    "id": 421,
+    "name": "Cherrim",
+    "genus": "Blossom"
+  },
+  {
+    "id": 422,
+    "name": "Shellos",
+    "genus": "Sea Slug"
+  },
+  {
+    "id": 423,
+    "name": "Gastrodon",
+    "genus": "Sea Slug"
+  },
+  {
+    "id": 424,
+    "name": "Ambipom",
+    "genus": "Long Tail"
+  },
+  {
+    "id": 425,
+    "name": "Drifloon",
+    "genus": "Balloon"
+  },
+  {
+    "id": 426,
+    "name": "Drifblim",
+    "genus": "Blimp"
+  },
+  {
+    "id": 427,
+    "name": "Buneary",
+    "genus": "Rabbit"
+  },
+  {
+    "id": 428,
+    "name": "Lopunny",
+    "genus": "Rabbit"
+  },
+  {
+    "id": 429,
+    "name": "Mismagius",
+    "genus": "Magical"
+  },
+  {
+    "id": 430,
+    "name": "Honchkrow",
+    "genus": "Big Boss"
+  },
+  {
+    "id": 431,
+    "name": "Glameow",
+    "genus": "Catty"
+  },
+  {
+    "id": 432,
+    "name": "Purugly",
+    "genus": "Tiger Cat"
+  },
+  {
+    "id": 433,
+    "name": "Chingling",
+    "genus": "Bell"
+  },
+  {
+    "id": 434,
+    "name": "Stunky",
+    "genus": "Skunk"
+  },
+  {
+    "id": 435,
+    "name": "Skuntank",
+    "genus": "Skunk"
+  },
+  {
+    "id": 436,
+    "name": "Bronzor",
+    "genus": "Bronze"
+  },
+  {
+    "id": 437,
+    "name": "Bronzong",
+    "genus": "Bronze Bell"
+  },
+  {
+    "id": 438,
+    "name": "Bonsly",
+    "genus": "Bonsai"
+  },
+  {
+    "id": 439,
+    "name": "Mime Jr.",
+    "genus": "Mime"
+  },
+  {
+    "id": 440,
+    "name": "Happiny",
+    "genus": "Playhouse"
+  },
+  {
+    "id": 441,
+    "name": "Chatot",
+    "genus": "Music Note"
+  },
+  {
+    "id": 442,
+    "name": "Spiritomb",
+    "genus": "Forbidden"
+  },
+  {
+    "id": 443,
+    "name": "Gible",
+    "genus": "Land Shark"
+  },
+  {
+    "id": 444,
+    "name": "Gabite",
+    "genus": "Cave"
+  },
+  {
+    "id": 445,
+    "name": "Garchomp",
+    "genus": "Mach"
+  },
+  {
+    "id": 446,
+    "name": "Munchlax",
+    "genus": "Big Eater"
+  },
+  {
+    "id": 447,
+    "name": "Riolu",
+    "genus": "Emanation"
+  },
+  {
+    "id": 448,
+    "name": "Lucario",
+    "genus": "Aura"
+  },
+  {
+    "id": 449,
+    "name": "Hippopotas",
+    "genus": "Hippo"
+  },
+  {
+    "id": 450,
+    "name": "Hippowdon",
+    "genus": "Heavyweight"
+  },
+  {
+    "id": 451,
+    "name": "Skorupi",
+    "genus": "Scorpion"
+  },
+  {
+    "id": 452,
+    "name": "Drapion",
+    "genus": "Ogre Scorpion"
+  },
+  {
+    "id": 453,
+    "name": "Croagunk",
+    "genus": "Toxic Mouth"
+  },
+  {
+    "id": 454,
+    "name": "Toxicroak",
+    "genus": "Toxic Mouth"
+  },
+  {
+    "id": 455,
+    "name": "Carnivine",
+    "genus": "Bug Catcher"
+  },
+  {
+    "id": 456,
+    "name": "Finneon",
+    "genus": "Wing Fish"
+  },
+  {
+    "id": 457,
+    "name": "Lumineon",
+    "genus": "Neon"
+  },
+  {
+    "id": 458,
+    "name": "Mantyke",
+    "genus": "Kite"
+  },
+  {
+    "id": 459,
+    "name": "Snover",
+    "genus": "Frost Tree"
+  },
+  {
+    "id": 460,
+    "name": "Abomasnow",
+    "genus": "Frost Tree"
+  },
+  {
+    "id": 461,
+    "name": "Weavile",
+    "genus": "Sharp Claw"
+  },
+  {
+    "id": 462,
+    "name": "Magnezone",
+    "genus": "Magnet Area"
+  },
+  {
+    "id": 463,
+    "name": "Lickilicky",
+    "genus": "Licking"
+  },
+  {
+    "id": 464,
+    "name": "Rhyperior",
+    "genus": "Drill"
+  },
+  {
+    "id": 465,
+    "name": "Tangrowth",
+    "genus": "Vine"
+  },
+  {
+    "id": 466,
+    "name": "Electivire",
+    "genus": "Thunderbolt"
+  },
+  {
+    "id": 467,
+    "name": "Magmortar",
+    "genus": "Blast"
+  },
+  {
+    "id": 468,
+    "name": "Togekiss",
+    "genus": "Jubilee"
+  },
+  {
+    "id": 469,
+    "name": "Yanmega",
+    "genus": "Ogre Darner"
+  },
+  {
+    "id": 470,
+    "name": "Leafeon",
+    "genus": "Verdant"
+  },
+  {
+    "id": 471,
+    "name": "Glaceon",
+    "genus": "Fresh Snow"
+  },
+  {
+    "id": 472,
+    "name": "Gliscor",
+    "genus": "Fang Scorpion"
+  },
+  {
+    "id": 473,
+    "name": "Mamoswine",
+    "genus": "Twin Tusk"
+  },
+  {
+    "id": 474,
+    "name": "Porygon-Z",
+    "genus": "Virtual"
+  },
+  {
+    "id": 475,
+    "name": "Gallade",
+    "genus": "Blade"
+  },
+  {
+    "id": 476,
+    "name": "Probopass",
+    "genus": "Compass"
+  },
+  {
+    "id": 477,
+    "name": "Dusknoir",
+    "genus": "Gripper"
+  },
+  {
+    "id": 478,
+    "name": "Froslass",
+    "genus": "Snow Land"
+  },
+  {
+    "id": 479,
+    "name": "Rotom",
+    "genus": "Plasma"
+  },
+  {
+    "id": 480,
+    "name": "Uxie",
+    "genus": "Knowledge"
+  },
+  {
+    "id": 481,
+    "name": "Mesprit",
+    "genus": "Emotion"
+  },
+  {
+    "id": 482,
+    "name": "Azelf",
+    "genus": "Willpower"
+  },
+  {
+    "id": 483,
+    "name": "Dialga",
+    "genus": "Temporal"
+  },
+  {
+    "id": 484,
+    "name": "Palkia",
+    "genus": "Spatial"
+  },
+  {
+    "id": 485,
+    "name": "Heatran",
+    "genus": "Lava Dome"
+  },
+  {
+    "id": 486,
+    "name": "Regigigas",
+    "genus": "Colossal"
+  },
+  {
+    "id": 487,
+    "name": "Giratina",
+    "genus": "Renegade"
+  },
+  {
+    "id": 488,
+    "name": "Cresselia",
+    "genus": "Lunar"
+  },
+  {
+    "id": 489,
+    "name": "Phione",
+    "genus": "Sea Drifter"
+  },
+  {
+    "id": 490,
+    "name": "Manaphy",
+    "genus": "Seafaring"
+  },
+  {
+    "id": 491,
+    "name": "Darkrai",
+    "genus": "Pitch-Black"
+  },
+  {
+    "id": 492,
+    "name": "Shaymin",
+    "genus": "Gratitude"
+  },
+  {
+    "id": 493,
+    "name": "Arceus",
+    "genus": "Alpha"
+  },
+  {
+    "id": 494,
+    "name": "Victini",
+    "genus": "Victory"
+  },
+  {
+    "id": 495,
+    "name": "Snivy",
+    "genus": "Grass Snake"
+  },
+  {
+    "id": 496,
+    "name": "Servine",
+    "genus": "Grass Snake"
+  },
+  {
+    "id": 497,
+    "name": "Serperior",
+    "genus": "Regal"
+  },
+  {
+    "id": 498,
+    "name": "Tepig",
+    "genus": "Fire Pig"
+  },
+  {
+    "id": 499,
+    "name": "Pignite",
+    "genus": "Fire Pig"
+  },
+  {
+    "id": 500,
+    "name": "Emboar",
+    "genus": "Mega Fire Pig"
+  },
+  {
+    "id": 501,
+    "name": "Oshawott",
+    "genus": "Sea Otter"
+  },
+  {
+    "id": 502,
+    "name": "Dewott",
+    "genus": "Discipline"
+  },
+  {
+    "id": 503,
+    "name": "Samurott",
+    "genus": "Formidable"
+  },
+  {
+    "id": 504,
+    "name": "Patrat",
+    "genus": "Scout"
+  },
+  {
+    "id": 505,
+    "name": "Watchog",
+    "genus": "Lookout"
+  },
+  {
+    "id": 506,
+    "name": "Lillipup",
+    "genus": "Puppy"
+  },
+  {
+    "id": 507,
+    "name": "Herdier",
+    "genus": "Loyal Dog"
+  },
+  {
+    "id": 508,
+    "name": "Stoutland",
+    "genus": "Big-Hearted"
+  },
+  {
+    "id": 509,
+    "name": "Purrloin",
+    "genus": "Devious"
+  },
+  {
+    "id": 510,
+    "name": "Liepard",
+    "genus": "Cruel"
+  },
+  {
+    "id": 511,
+    "name": "Pansage",
+    "genus": "Grass Monkey"
+  },
+  {
+    "id": 512,
+    "name": "Simisage",
+    "genus": "Thorn Monkey"
+  },
+  {
+    "id": 513,
+    "name": "Pansear",
+    "genus": "High Temp"
+  },
+  {
+    "id": 514,
+    "name": "Simisear",
+    "genus": "Ember"
+  },
+  {
+    "id": 515,
+    "name": "Panpour",
+    "genus": "Spray"
+  },
+  {
+    "id": 516,
+    "name": "Simipour",
+    "genus": "Geyser"
+  },
+  {
+    "id": 517,
+    "name": "Munna",
+    "genus": "Dream Eater"
+  },
+  {
+    "id": 518,
+    "name": "Musharna",
+    "genus": "Drowsing"
+  },
+  {
+    "id": 519,
+    "name": "Pidove",
+    "genus": "Tiny Pigeon"
+  },
+  {
+    "id": 520,
+    "name": "Tranquill",
+    "genus": "Wild Pigeon"
+  },
+  {
+    "id": 521,
+    "name": "Unfezant",
+    "genus": "Proud"
+  },
+  {
+    "id": 522,
+    "name": "Blitzle",
+    "genus": "Electrified"
+  },
+  {
+    "id": 523,
+    "name": "Zebstrika",
+    "genus": "Thunderbolt"
+  },
+  {
+    "id": 524,
+    "name": "Roggenrola",
+    "genus": "Mantle"
+  },
+  {
+    "id": 525,
+    "name": "Boldore",
+    "genus": "Ore"
+  },
+  {
+    "id": 526,
+    "name": "Gigalith",
+    "genus": "Compressed"
+  },
+  {
+    "id": 527,
+    "name": "Woobat",
+    "genus": "Bat"
+  },
+  {
+    "id": 528,
+    "name": "Swoobat",
+    "genus": "Courting"
+  },
+  {
+    "id": 529,
+    "name": "Drilbur",
+    "genus": "Mole"
+  },
+  {
+    "id": 530,
+    "name": "Excadrill",
+    "genus": "Subterrene"
+  },
+  {
+    "id": 531,
+    "name": "Audino",
+    "genus": "Hearing"
+  },
+  {
+    "id": 532,
+    "name": "Timburr",
+    "genus": "Muscular"
+  },
+  {
+    "id": 533,
+    "name": "Gurdurr",
+    "genus": "Muscular"
+  },
+  {
+    "id": 534,
+    "name": "Conkeldurr",
+    "genus": "Muscular"
+  },
+  {
+    "id": 535,
+    "name": "Tympole",
+    "genus": "Tadpole"
+  },
+  {
+    "id": 536,
+    "name": "Palpitoad",
+    "genus": "Vibration"
+  },
+  {
+    "id": 537,
+    "name": "Seismitoad",
+    "genus": "Vibration"
+  },
+  {
+    "id": 538,
+    "name": "Throh",
+    "genus": "Judo"
+  },
+  {
+    "id": 539,
+    "name": "Sawk",
+    "genus": "Karate"
+  },
+  {
+    "id": 540,
+    "name": "Sewaddle",
+    "genus": "Sewing"
+  },
+  {
+    "id": 541,
+    "name": "Swadloon",
+    "genus": "Leaf-Wrapped"
+  },
+  {
+    "id": 542,
+    "name": "Leavanny",
+    "genus": "Nurturing"
+  },
+  {
+    "id": 543,
+    "name": "Venipede",
+    "genus": "Centipede"
+  },
+  {
+    "id": 544,
+    "name": "Whirlipede",
+    "genus": "Curlipede"
+  },
+  {
+    "id": 545,
+    "name": "Scolipede",
+    "genus": "Megapede"
+  },
+  {
+    "id": 546,
+    "name": "Cottonee",
+    "genus": "Cotton Puff"
+  },
+  {
+    "id": 547,
+    "name": "Whimsicott",
+    "genus": "Windveiled"
+  },
+  {
+    "id": 548,
+    "name": "Petilil",
+    "genus": "Bulb"
+  },
+  {
+    "id": 549,
+    "name": "Lilligant",
+    "genus": "Flowering"
+  },
+  {
+    "id": 550,
+    "name": "Basculin",
+    "genus": "Hostile"
+  },
+  {
+    "id": 551,
+    "name": "Sandile",
+    "genus": "Desert Croc"
+  },
+  {
+    "id": 552,
+    "name": "Krokorok",
+    "genus": "Desert Croc"
+  },
+  {
+    "id": 553,
+    "name": "Krookodile",
+    "genus": "Intimidation"
+  },
+  {
+    "id": 554,
+    "name": "Darumaka",
+    "genus": "Zen Charm"
+  },
+  {
+    "id": 555,
+    "name": "Darmanitan",
+    "genus": "Blazing"
+  },
+  {
+    "id": 556,
+    "name": "Maractus",
+    "genus": "Cactus"
+  },
+  {
+    "id": 557,
+    "name": "Dwebble",
+    "genus": "Rock Inn"
+  },
+  {
+    "id": 558,
+    "name": "Crustle",
+    "genus": "Stone Home"
+  },
+  {
+    "id": 559,
+    "name": "Scraggy",
+    "genus": "Shedding"
+  },
+  {
+    "id": 560,
+    "name": "Scrafty",
+    "genus": "Hoodlum"
+  },
+  {
+    "id": 561,
+    "name": "Sigilyph",
+    "genus": "Avianoid"
+  },
+  {
+    "id": 562,
+    "name": "Yamask",
+    "genus": "Spirit"
+  },
+  {
+    "id": 563,
+    "name": "Cofagrigus",
+    "genus": "Coffin"
+  },
+  {
+    "id": 564,
+    "name": "Tirtouga",
+    "genus": "Prototurtle"
+  },
+  {
+    "id": 565,
+    "name": "Carracosta",
+    "genus": "Prototurtle"
+  },
+  {
+    "id": 566,
+    "name": "Archen",
+    "genus": "First Bird"
+  },
+  {
+    "id": 567,
+    "name": "Archeops",
+    "genus": "First Bird"
+  },
+  {
+    "id": 568,
+    "name": "Trubbish",
+    "genus": "Trash Bag"
+  },
+  {
+    "id": 569,
+    "name": "Garbodor",
+    "genus": "Trash Heap"
+  },
+  {
+    "id": 570,
+    "name": "Zorua",
+    "genus": "Tricky Fox"
+  },
+  {
+    "id": 571,
+    "name": "Zoroark",
+    "genus": "Illusion Fox"
+  },
+  {
+    "id": 572,
+    "name": "Minccino",
+    "genus": "Chinchilla"
+  },
+  {
+    "id": 573,
+    "name": "Cinccino",
+    "genus": "Scarf"
+  },
+  {
+    "id": 574,
+    "name": "Gothita",
+    "genus": "Fixation"
+  },
+  {
+    "id": 575,
+    "name": "Gothorita",
+    "genus": "Manipulate"
+  },
+  {
+    "id": 576,
+    "name": "Gothitelle",
+    "genus": "Astral Body"
+  },
+  {
+    "id": 577,
+    "name": "Solosis",
+    "genus": "Cell"
+  },
+  {
+    "id": 578,
+    "name": "Duosion",
+    "genus": "Mitosis"
+  },
+  {
+    "id": 579,
+    "name": "Reuniclus",
+    "genus": "Multiplying"
+  },
+  {
+    "id": 580,
+    "name": "Ducklett",
+    "genus": "Water Bird"
+  },
+  {
+    "id": 581,
+    "name": "Swanna",
+    "genus": "White Bird"
+  },
+  {
+    "id": 582,
+    "name": "Vanillite",
+    "genus": "Fresh Snow"
+  },
+  {
+    "id": 583,
+    "name": "Vanillish",
+    "genus": "Icy Snow"
+  },
+  {
+    "id": 584,
+    "name": "Vanilluxe",
+    "genus": "Snowstorm"
+  },
+  {
+    "id": 585,
+    "name": "Deerling",
+    "genus": "Season"
+  },
+  {
+    "id": 586,
+    "name": "Sawsbuck",
+    "genus": "Season"
+  },
+  {
+    "id": 587,
+    "name": "Emolga",
+    "genus": "Sky Squirrel"
+  },
+  {
+    "id": 588,
+    "name": "Karrablast",
+    "genus": "Clamping"
+  },
+  {
+    "id": 589,
+    "name": "Escavalier",
+    "genus": "Cavalry"
+  },
+  {
+    "id": 590,
+    "name": "Foongus",
+    "genus": "Mushroom"
+  },
+  {
+    "id": 591,
+    "name": "Amoonguss",
+    "genus": "Mushroom"
+  },
+  {
+    "id": 592,
+    "name": "Frillish",
+    "genus": "Floating"
+  },
+  {
+    "id": 593,
+    "name": "Jellicent",
+    "genus": "Floating"
+  },
+  {
+    "id": 594,
+    "name": "Alomomola",
+    "genus": "Caring"
+  },
+  {
+    "id": 595,
+    "name": "Joltik",
+    "genus": "Attaching"
+  },
+  {
+    "id": 596,
+    "name": "Galvantula",
+    "genus": "EleSpider"
+  },
+  {
+    "id": 597,
+    "name": "Ferroseed",
+    "genus": "Thorn Seed"
+  },
+  {
+    "id": 598,
+    "name": "Ferrothorn",
+    "genus": "Thorn Pod"
+  },
+  {
+    "id": 599,
+    "name": "Klink",
+    "genus": "Gear"
+  },
+  {
+    "id": 600,
+    "name": "Klang",
+    "genus": "Gear"
+  },
+  {
+    "id": 601,
+    "name": "Klinklang",
+    "genus": "Gear"
+  },
+  {
+    "id": 602,
+    "name": "Tynamo",
+    "genus": "EleFish"
+  },
+  {
+    "id": 603,
+    "name": "Eelektrik",
+    "genus": "EleFish"
+  },
+  {
+    "id": 604,
+    "name": "Eelektross",
+    "genus": "EleFish"
+  },
+  {
+    "id": 605,
+    "name": "Elgyem",
+    "genus": "Cerebral"
+  },
+  {
+    "id": 606,
+    "name": "Beheeyem",
+    "genus": "Cerebral"
+  },
+  {
+    "id": 607,
+    "name": "Litwick",
+    "genus": "Candle"
+  },
+  {
+    "id": 608,
+    "name": "Lampent",
+    "genus": "Lamp"
+  },
+  {
+    "id": 609,
+    "name": "Chandelure",
+    "genus": "Luring"
+  },
+  {
+    "id": 610,
+    "name": "Axew",
+    "genus": "Tusk"
+  },
+  {
+    "id": 611,
+    "name": "Fraxure",
+    "genus": "Axe Jaw"
+  },
+  {
+    "id": 612,
+    "name": "Haxorus",
+    "genus": "Axe Jaw"
+  },
+  {
+    "id": 613,
+    "name": "Cubchoo",
+    "genus": "Chill"
+  },
+  {
+    "id": 614,
+    "name": "Beartic",
+    "genus": "Freezing"
+  },
+  {
+    "id": 615,
+    "name": "Cryogonal",
+    "genus": "Crystallizing"
+  },
+  {
+    "id": 616,
+    "name": "Shelmet",
+    "genus": "Snail"
+  },
+  {
+    "id": 617,
+    "name": "Accelgor",
+    "genus": "Shell Out"
+  },
+  {
+    "id": 618,
+    "name": "Stunfisk",
+    "genus": "Trap"
+  },
+  {
+    "id": 619,
+    "name": "Mienfoo",
+    "genus": "Martial Arts"
+  },
+  {
+    "id": 620,
+    "name": "Mienshao",
+    "genus": "Martial Arts"
+  },
+  {
+    "id": 621,
+    "name": "Druddigon",
+    "genus": "Cave"
+  },
+  {
+    "id": 622,
+    "name": "Golett",
+    "genus": "Automaton"
+  },
+  {
+    "id": 623,
+    "name": "Golurk",
+    "genus": "Automaton"
+  },
+  {
+    "id": 624,
+    "name": "Pawniard",
+    "genus": "Sharp Blade"
+  },
+  {
+    "id": 625,
+    "name": "Bisharp",
+    "genus": "Sword Blade"
+  },
+  {
+    "id": 626,
+    "name": "Bouffalant",
+    "genus": "Bash Buffalo"
+  },
+  {
+    "id": 627,
+    "name": "Rufflet",
+    "genus": "Eaglet"
+  },
+  {
+    "id": 628,
+    "name": "Braviary",
+    "genus": "Valiant"
+  },
+  {
+    "id": 629,
+    "name": "Vullaby",
+    "genus": "Diapered"
+  },
+  {
+    "id": 630,
+    "name": "Mandibuzz",
+    "genus": "Bone Vulture"
+  },
+  {
+    "id": 631,
+    "name": "Heatmor",
+    "genus": "Anteater"
+  },
+  {
+    "id": 632,
+    "name": "Durant",
+    "genus": "Iron Ant"
+  },
+  {
+    "id": 633,
+    "name": "Deino",
+    "genus": "Irate"
+  },
+  {
+    "id": 634,
+    "name": "Zweilous",
+    "genus": "Hostile"
+  },
+  {
+    "id": 635,
+    "name": "Hydreigon",
+    "genus": "Brutal"
+  },
+  {
+    "id": 636,
+    "name": "Larvesta",
+    "genus": "Torch"
+  },
+  {
+    "id": 637,
+    "name": "Volcarona",
+    "genus": "Sun"
+  },
+  {
+    "id": 638,
+    "name": "Cobalion",
+    "genus": "Iron Will"
+  },
+  {
+    "id": 639,
+    "name": "Terrakion",
+    "genus": "Cavern"
+  },
+  {
+    "id": 640,
+    "name": "Virizion",
+    "genus": "Grassland"
+  },
+  {
+    "id": 641,
+    "name": "Tornadus",
+    "genus": "Cyclone"
+  },
+  {
+    "id": 642,
+    "name": "Thundurus",
+    "genus": "Bolt Strike"
+  },
+  {
+    "id": 643,
+    "name": "Reshiram",
+    "genus": "Vast White"
+  },
+  {
+    "id": 644,
+    "name": "Zekrom",
+    "genus": "Deep Black"
+  },
+  {
+    "id": 645,
+    "name": "Landorus",
+    "genus": "Abundance"
+  },
+  {
+    "id": 646,
+    "name": "Kyurem",
+    "genus": "Boundary"
+  },
+  {
+    "id": 647,
+    "name": "Keldeo",
+    "genus": "Colt"
+  },
+  {
+    "id": 648,
+    "name": "Meloetta",
+    "genus": "Melody"
+  },
+  {
+    "id": 649,
+    "name": "Genesect",
+    "genus": "Paleozoic"
+  },
+  {
+    "id": 650,
+    "name": "Chespin",
+    "genus": "Spiny Nut"
+  },
+  {
+    "id": 651,
+    "name": "Quilladin",
+    "genus": "Spiny Armor"
+  },
+  {
+    "id": 652,
+    "name": "Chesnaught",
+    "genus": "Spiny Armor"
+  },
+  {
+    "id": 653,
+    "name": "Fennekin",
+    "genus": "Fox"
+  },
+  {
+    "id": 654,
+    "name": "Braixen",
+    "genus": "Fox"
+  },
+  {
+    "id": 655,
+    "name": "Delphox",
+    "genus": "Fox"
+  },
+  {
+    "id": 656,
+    "name": "Froakie",
+    "genus": "Bubble Frog"
+  },
+  {
+    "id": 657,
+    "name": "Frogadier",
+    "genus": "Bubble Frog"
+  },
+  {
+    "id": 658,
+    "name": "Greninja",
+    "genus": "Ninja"
+  },
+  {
+    "id": 659,
+    "name": "Bunnelby",
+    "genus": "Digging"
+  },
+  {
+    "id": 660,
+    "name": "Diggersby",
+    "genus": "Digging"
+  },
+  {
+    "id": 661,
+    "name": "Fletchling",
+    "genus": "Tiny Robin"
+  },
+  {
+    "id": 662,
+    "name": "Fletchinder",
+    "genus": "Ember"
+  },
+  {
+    "id": 663,
+    "name": "Talonflame",
+    "genus": "Scorching"
+  },
+  {
+    "id": 664,
+    "name": "Scatterbug",
+    "genus": "Scatterdust"
+  },
+  {
+    "id": 665,
+    "name": "Spewpa",
+    "genus": "Scatterdust"
+  },
+  {
+    "id": 666,
+    "name": "Vivillon",
+    "genus": "Scale"
+  },
+  {
+    "id": 667,
+    "name": "Litleo",
+    "genus": "Lion Cub"
+  },
+  {
+    "id": 668,
+    "name": "Pyroar",
+    "genus": "Royal"
+  },
+  {
+    "id": 669,
+    "name": "Flabébé",
+    "genus": "Single Bloom"
+  },
+  {
+    "id": 670,
+    "name": "Floette",
+    "genus": "Single Bloom"
+  },
+  {
+    "id": 671,
+    "name": "Florges",
+    "genus": "Garden"
+  },
+  {
+    "id": 672,
+    "name": "Skiddo",
+    "genus": "Mount"
+  },
+  {
+    "id": 673,
+    "name": "Gogoat",
+    "genus": "Mount"
+  },
+  {
+    "id": 674,
+    "name": "Pancham",
+    "genus": "Playful"
+  },
+  {
+    "id": 675,
+    "name": "Pangoro",
+    "genus": "Daunting"
+  },
+  {
+    "id": 676,
+    "name": "Furfrou",
+    "genus": "Poodle"
+  },
+  {
+    "id": 677,
+    "name": "Espurr",
+    "genus": "Restraint"
+  },
+  {
+    "id": 678,
+    "name": "Meowstic",
+    "genus": "Constraint"
+  },
+  {
+    "id": 679,
+    "name": "Honedge",
+    "genus": "Sword"
+  },
+  {
+    "id": 680,
+    "name": "Doublade",
+    "genus": "Sword"
+  },
+  {
+    "id": 681,
+    "name": "Aegislash",
+    "genus": "Royal Sword"
+  },
+  {
+    "id": 682,
+    "name": "Spritzee",
+    "genus": "Perfume"
+  },
+  {
+    "id": 683,
+    "name": "Aromatisse",
+    "genus": "Fragrance"
+  },
+  {
+    "id": 684,
+    "name": "Swirlix",
+    "genus": "Cotton Candy"
+  },
+  {
+    "id": 685,
+    "name": "Slurpuff",
+    "genus": "Meringue"
+  },
+  {
+    "id": 686,
+    "name": "Inkay",
+    "genus": "Revolving"
+  },
+  {
+    "id": 687,
+    "name": "Malamar",
+    "genus": "Overturning"
+  },
+  {
+    "id": 688,
+    "name": "Binacle",
+    "genus": "Two-Handed"
+  },
+  {
+    "id": 689,
+    "name": "Barbaracle",
+    "genus": "Collective"
+  },
+  {
+    "id": 690,
+    "name": "Skrelp",
+    "genus": "Mock Kelp"
+  },
+  {
+    "id": 691,
+    "name": "Dragalge",
+    "genus": "Mock Kelp"
+  },
+  {
+    "id": 692,
+    "name": "Clauncher",
+    "genus": "Water Gun"
+  },
+  {
+    "id": 693,
+    "name": "Clawitzer",
+    "genus": "Howitzer"
+  },
+  {
+    "id": 694,
+    "name": "Helioptile",
+    "genus": "Generator"
+  },
+  {
+    "id": 695,
+    "name": "Heliolisk",
+    "genus": "Generator"
+  },
+  {
+    "id": 696,
+    "name": "Tyrunt",
+    "genus": "Royal Heir"
+  },
+  {
+    "id": 697,
+    "name": "Tyrantrum",
+    "genus": "Despot"
+  },
+  {
+    "id": 698,
+    "name": "Amaura",
+    "genus": "Tundra"
+  },
+  {
+    "id": 699,
+    "name": "Aurorus",
+    "genus": "Tundra"
+  },
+  {
+    "id": 700,
+    "name": "Sylveon",
+    "genus": "Intertwining"
+  },
+  {
+    "id": 701,
+    "name": "Hawlucha",
+    "genus": "Wrestling"
+  },
+  {
+    "id": 702,
+    "name": "Dedenne",
+    "genus": "Antenna"
+  },
+  {
+    "id": 703,
+    "name": "Carbink",
+    "genus": "Jewel"
+  },
+  {
+    "id": 704,
+    "name": "Goomy",
+    "genus": "Soft Tissue"
+  },
+  {
+    "id": 705,
+    "name": "Sliggoo",
+    "genus": "Soft Tissue"
+  },
+  {
+    "id": 706,
+    "name": "Goodra",
+    "genus": "Dragon"
+  },
+  {
+    "id": 707,
+    "name": "Klefki",
+    "genus": "Key Ring"
+  },
+  {
+    "id": 708,
+    "name": "Phantump",
+    "genus": "Stump"
+  },
+  {
+    "id": 709,
+    "name": "Trevenant",
+    "genus": "Elder Tree"
+  },
+  {
+    "id": 710,
+    "name": "Pumpkaboo",
+    "genus": "Pumpkin"
+  },
+  {
+    "id": 711,
+    "name": "Gourgeist",
+    "genus": "Pumpkin"
+  },
+  {
+    "id": 712,
+    "name": "Bergmite",
+    "genus": "Ice Chunk"
+  },
+  {
+    "id": 713,
+    "name": "Avalugg",
+    "genus": "Iceberg"
+  },
+  {
+    "id": 714,
+    "name": "Noibat",
+    "genus": "Sound Wave"
+  },
+  {
+    "id": 715,
+    "name": "Noivern",
+    "genus": "Sound Wave"
+  },
+  {
+    "id": 716,
+    "name": "Xerneas",
+    "genus": "Life"
+  },
+  {
+    "id": 717,
+    "name": "Yveltal",
+    "genus": "Destruction"
+  },
+  {
+    "id": 718,
+    "name": "Zygarde",
+    "genus": "Order"
+  },
+  {
+    "id": 719,
+    "name": "Diancie",
+    "genus": "Jewel"
+  },
+  {
+    "id": 720,
+    "name": "Hoopa",
+    "genus": "Mischief"
+  },
+  {
+    "id": 721,
+    "name": "Volcanion",
+    "genus": "Steam"
+  }
+]

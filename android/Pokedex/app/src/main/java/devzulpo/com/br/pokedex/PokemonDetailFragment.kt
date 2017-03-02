@@ -9,10 +9,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import org.json.JSONArray
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStream
 import java.io.InputStreamReader
+import java.util.*
 
 /**
  * A fragment representing a single PokemonSynthetic detail screen.
@@ -39,7 +41,7 @@ class PokemonDetailFragment : Fragment() {
             // arguments. In a real-world scenario, use a Loader
             // to load content from a content provider.
             val id: Int = arguments.getInt(ARG_ITEM_ID)
-            mItem = readPokemonByIdFromCsv(id)
+            mItem = readPokemonByIdFromJson(id)
         }
     }
 
@@ -53,7 +55,7 @@ class PokemonDetailFragment : Fragment() {
             (rootView.findViewById(R.id.image) as ImageView).setImageResource(
                 activity.applicationContext.resources.getIdentifier(drawableImageName, "drawable", activity.getPackageName())
             )
-            (rootView.findViewById(R.id.name) as TextView).text = mItem!!.name
+            (rootView.findViewById(R.id.name) as TextView).text = mItem!!.name.toUpperCase()
             (rootView.findViewById(R.id.height) as TextView).text = mItem!!.height.toString()
             (rootView.findViewById(R.id.weight) as TextView).text = mItem!!.weight.toString()
         }
@@ -61,38 +63,34 @@ class PokemonDetailFragment : Fragment() {
         return rootView
     }
 
-    private fun readPokemonByIdFromCsv(id: Int): PokemonAnalytic? {
-        val inputStream: InputStream = activity.assets.open("pokemon.csv")
-        val reader: BufferedReader = BufferedReader(InputStreamReader(inputStream))
+    private fun readPokemonByIdFromJson(id: Int): PokemonAnalytic? {
+        val inputStream: InputStream = activity.assets.open("pokemon.json")
+        val size = inputStream.available()
+        val buffer = ByteArray(size)
 
-        var pokemonAnalytic: PokemonAnalytic? = null
+        inputStream.read(buffer)
+        inputStream.close()
 
-        try {
-            while (reader.readLine() != null) {
-                val line: String = reader.readLine()
+        val json = String(buffer)
 
-                val rowData = line.split(
-                    ",".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+        val pokemons: JSONArray = JSONArray(json)
 
-                if (rowData[0].toInt().equals(id)) {
-                    pokemonAnalytic = PokemonAnalytic(
-                            rowData[0].toInt(),
-                            rowData[1].toUpperCase(),
-                            rowData[2].toInt(),
-                            rowData[3].toInt())
-                }
-            }
-        } catch (ex: IOException) {
-            Log.e("Pokedex", ex.message)
-        } finally {
-            try {
-                inputStream.close()
-            } catch (ex: IOException) {
-                Log.e("Pokedex", ex.message)
-            }
+        val pokemonAnalytics: MutableList<PokemonAnalytic> = ArrayList()
+
+        for (i in 0..(pokemons.length() - 1)) {
+            val pokemon = pokemons.getJSONObject(i)
+
+            var pokemonAnalytic: PokemonAnalytic =
+                    PokemonAnalytic(
+                            pokemon.getInt("id"),
+                            pokemon.getString("name"),
+                            pokemon.getInt("height"),
+                            pokemon.getInt("weight"))
+
+            pokemonAnalytics.add(pokemonAnalytic)
         }
 
-        return pokemonAnalytic
+        return pokemonAnalytics.find { p -> p.id == id }
     }
 
     companion object {

@@ -21,7 +21,8 @@
         android:layout_height="60dp"
         android:textAppearance="?attr/textAppearanceListItem"
         android:textAlignment="viewStart"
-        android:layout_weight="5"/>
+        android:layout_weight="5"
+    />
 
     <TextView
         android:id="@+id/type"
@@ -30,6 +31,7 @@
         android:layout_height="60dp"
         android:textAppearance="?attr/textAppearanceListItem"
         android:textAlignment="viewEnd"
-        android:layout_weight="2"/>
+        android:layout_weight="2"
+    />
 
 </LinearLayout>

@@ -1,5 +1,6 @@
 package devzulpo.com.br.pokedex
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
@@ -11,12 +12,20 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import org.json.JSONArray
 import java.io.BufferedReader
 import java.io.InputStream
 import java.io.InputStreamReader
 
 import java.util.ArrayList
 import java.io.IOException
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig.initDefault
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
+
+
+
+
 
 
 /**
@@ -38,6 +47,13 @@ class PokemonListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        CalligraphyConfig.initDefault(CalligraphyConfig.Builder()
+            .setDefaultFontPath("fonts/Pokemon.ttf")
+            .setFontAttrId(R.attr.fontPath)
+            .build()
+        )
+
         setContentView(R.layout.activity_pokemon_list)
 
         val toolbar = findViewById(R.id.toolbar) as Toolbar
@@ -54,9 +70,13 @@ class PokemonListActivity : AppCompatActivity() {
             mTwoPane = true
         }
 
-        val results: List<PokemonSynthetic> = readPokemonsFromCsv()
+        val results: List<PokemonSynthetic> = readPokemonsFromJson()
 
         setupRecyclerView(recyclerView!!, results)
+    }
+
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase))
     }
 
     private fun setupToolbar(toolbar: Toolbar) {
@@ -64,34 +84,30 @@ class PokemonListActivity : AppCompatActivity() {
         toolbar.title = title
     }
 
-    private fun readPokemonsFromCsv(): List<PokemonSynthetic> {
-        val inputStream: InputStream = assets.open("pokemon_names.csv")
-        val reader: BufferedReader = BufferedReader(InputStreamReader(inputStream))
+    private fun readPokemonsFromJson(): List<PokemonSynthetic> {
+        val inputStream: InputStream = assets.open("pokemon_names.json")
+        val size = inputStream.available()
+        val buffer = ByteArray(size)
+
+        inputStream.read(buffer)
+        inputStream.close()
+
+        val json = String(buffer)
+
+        val pokemonNames: JSONArray = JSONArray(json)
 
         val pokemonSynthetics: MutableList<PokemonSynthetic> = ArrayList()
 
-        try {
-            while (reader.readLine() != null) {
-                val line: String = reader.readLine()
+        for (i in 0..(pokemonNames.length() - 1)) {
+            val pokemonName = pokemonNames.getJSONObject(i)
 
-                val rowData = line.split(
-                        ",".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+            var pokemonSynthetic: PokemonSynthetic =
+                    PokemonSynthetic(
+                            pokemonName.getInt("id"),
+                            pokemonName.getString("name"),
+                            pokemonName.getString("genus"))
 
-                var pokemonSynthetic: PokemonSynthetic = PokemonSynthetic(
-                        id = rowData[0].toInt(),
-                        name = rowData[1],
-                        type = rowData[2])
-
-                pokemonSynthetics.add(pokemonSynthetic)
-            }
-        } catch (ex: IOException) {
-            Log.e("Pokedex", ex.message)
-        } finally {
-            try {
-                inputStream.close()
-            } catch (ex: IOException) {
-                Log.e("Pokedex", ex.message)
-            }
+            pokemonSynthetics.add(pokemonSynthetic)
         }
 
         return sortPokemonsByName(pokemonSynthetics)
