@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     margin: 2,
+    fontFamily: 'Pokemon',
   },
   horizontalContainer: {
     flexDirection: 'row',
@@ -20,11 +21,13 @@ const styles = StyleSheet.create({
   },
   name: {
     flex: 1,
+    fontFamily: 'Pokemon',
   },
   genus: {
     flex: 1,
     textAlign: 'right',
     marginRight: 5,
+    fontFamily: 'Pokemon',
   },
   line: {
     backgroundColor: '#c5c5c5',

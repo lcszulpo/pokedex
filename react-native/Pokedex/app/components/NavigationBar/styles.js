@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   title: {
-    fontFamily: 'Dosis',
+    fontFamily: 'Pokemon',
     fontSize: 17,
   },
 });

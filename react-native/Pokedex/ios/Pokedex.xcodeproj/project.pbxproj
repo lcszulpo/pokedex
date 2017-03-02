@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -38,6 +37,8 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		E22A60B3F5A04A1CB4E088B2 /* libRCTOrientation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BFE5EC44E94044A86CFB83 /* libRCTOrientation.a */; };
+		7BA60A86987740849E088243 /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5B5B26C929C4E269D70974B /* Pokemon.ttf */; };
+		236EE87C6E2A4D06BB9B083B /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F87AF9A9D5B44FAA89C0707D /* Pokemon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -275,6 +276,8 @@
 		8CFE4FD24C88492D9FA46E31 /* RCTOrientation.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTOrientation.xcodeproj; path = "../node_modules/react-native-orientation/iOS/RCTOrientation.xcodeproj"; sourceTree = "<group>"; };
 		E5BFE5EC44E94044A86CFB83 /* libRCTOrientation.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTOrientation.a; sourceTree = "<group>"; };
 		F21209BDEA97463D80793738 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
+		F5B5B26C929C4E269D70974B /* Pokemon.ttf */ = {isa = PBXFileReference; name = "Pokemon.ttf"; path = "../app/assets/fonts/Pokemon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F87AF9A9D5B44FAA89C0707D /* Pokemon.ttf */ = {isa = PBXFileReference; name = "Pokemon.ttf"; path = "../fonts/Pokemon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -393,6 +396,8 @@
 		12D97E5A568340DBB7E0A7D6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F5B5B26C929C4E269D70974B /* Pokemon.ttf */,
+				F87AF9A9D5B44FAA89C0707D /* Pokemon.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -911,6 +916,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				7BA60A86987740849E088243 /* Pokemon.ttf in Resources */,
+				236EE87C6E2A4D06BB9B083B /* Pokemon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     fontSize: 20,
     fontWeight: 'bold',
+    fontFamily: 'Pokemon',
   },
   textContainer: {
     flexDirection: 'row',
@@ -21,6 +22,7 @@ const styles = StyleSheet.create({
     marginLeft: 3,
     marginTop: 5,
     fontSize: 16,
+    fontFamily: 'Pokemon',
   },
 });
 

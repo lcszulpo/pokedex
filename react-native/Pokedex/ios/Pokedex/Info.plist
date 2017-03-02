@@ -52,6 +52,9 @@
       </dict>
     </dict>
     <key>UIAppFonts</key>
-    <array/>
+    <array>
+      <string>Pokemon.ttf</string>
+      <string>Pokemon.ttf</string>
+    </array>
   </dict>
 </plist>
