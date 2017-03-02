@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
   genus: {
     flex: 1,
     textAlign: 'right',
+    marginRight: 5,
   },
   line: {
     backgroundColor: '#c5c5c5',

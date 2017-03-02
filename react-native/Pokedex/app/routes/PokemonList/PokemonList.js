@@ -148,6 +148,8 @@ class PokemonList extends Component {
           dataSource={dataSource}
           renderRow={(rowData) => <Row {...rowData} />}
           enableEmptySections
+          showsVerticalScrollIndicator={false}
+          showsHorizontalScrollIndicator={false}
           initialListSize={1}
           scrollRenderAheadDistance={10}
           removeClippedSubviews

@@ -37,7 +37,7 @@ class NavigationBar extends Component {
     return (
       <View>
         <StatusBar
-          backgroundColor="#FFFFFF"
+          backgroundColor={statusBarTintColor}
         />
         <ReactNativeNavigationBar
           title={{ title, tintColor: titleTintColor, style: styles.title }}
