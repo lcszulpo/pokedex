@@ -15,11 +15,11 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
-            }
-        }
+//        if let detail = self.detailItem {
+//            if let label = self.detailDescriptionLabel {
+//                label.text = detail.description
+//            }
+//        }
     }
 
     override func viewDidLoad() {
@@ -33,7 +33,7 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: PokemonSynthetic? {
         didSet {
             // Update the view.
             self.configureView()
