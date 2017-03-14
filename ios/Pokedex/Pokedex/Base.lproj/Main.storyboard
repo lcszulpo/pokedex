@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -96,38 +95,44 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eey-JB-L1Z">
-                                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="60" id="2CK-SL-q1m"/>
-                                                <constraint firstAttribute="width" constant="60" id="ZUU-XN-O9v"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpa-CR-LDd">
-                                            <rect key="frame" x="68" y="15" width="100" height="20"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="100" id="1yx-JQ-uyA"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Genus" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lH-UB-tlT">
-                                            <rect key="frame" x="225" y="15" width="72" height="20"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="100" id="iTE-hG-M9f"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MDS-ov-93o">
+                                            <rect key="frame" x="0.0" y="-1" width="260" height="60"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon_1" translatesAutoresizingMaskIntoConstraints="NO" id="eey-JB-L1Z">
+                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="2CK-SL-q1m"/>
+                                                        <constraint firstAttribute="width" constant="60" id="ZUU-XN-O9v"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpa-CR-LDd">
+                                                    <rect key="frame" x="60" y="0.0" width="100" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="1yx-JQ-uyA"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genus" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lH-UB-tlT">
+                                                    <rect key="frame" x="160" y="0.0" width="100" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="iTE-hG-M9f"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Zpa-CR-LDd" firstAttribute="leading" secondItem="eey-JB-L1Z" secondAttribute="trailing" constant="8" id="iww-2x-Qi9"/>
-                                        <constraint firstItem="eey-JB-L1Z" firstAttribute="centerY" secondItem="SIn-Xe-gRY" secondAttribute="centerY" id="lkb-le-3CH"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="4lH-UB-tlT" secondAttribute="trailing" constant="8" id="pnq-8d-6X3"/>
-                                        <constraint firstItem="Zpa-CR-LDd" firstAttribute="centerY" secondItem="SIn-Xe-gRY" secondAttribute="centerY" id="sja-FI-KJh"/>
-                                        <constraint firstItem="4lH-UB-tlT" firstAttribute="centerY" secondItem="SIn-Xe-gRY" secondAttribute="centerY" id="xWv-ww-bFJ"/>
+                                        <constraint firstItem="MDS-ov-93o" firstAttribute="centerY" secondItem="SIn-Xe-gRY" secondAttribute="centerY" id="OwN-mm-m61"/>
+                                        <constraint firstItem="MDS-ov-93o" firstAttribute="leading" secondItem="SIn-Xe-gRY" secondAttribute="leading" id="gV8-4l-K1w"/>
+                                        <constraint firstAttribute="trailing" secondItem="MDS-ov-93o" secondAttribute="trailing" constant="8" id="iGE-V2-bBZ"/>
+                                        <constraint firstAttribute="bottom" secondItem="MDS-ov-93o" secondAttribute="bottom" id="pd8-d4-gGz"/>
+                                        <constraint firstItem="MDS-ov-93o" firstAttribute="centerX" secondItem="SIn-Xe-gRY" secondAttribute="centerX" id="v8Y-FS-z4p"/>
+                                        <constraint firstItem="MDS-ov-93o" firstAttribute="top" secondItem="SIn-Xe-gRY" secondAttribute="top" id="wOu-tw-fnd"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -169,5 +174,8 @@
             <point key="canvasLocation" x="-45" y="129"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pokemon_1" width="60" height="60"/>
+    </resources>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

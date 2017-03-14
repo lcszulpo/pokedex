@@ -73,8 +73,11 @@ class MasterViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PokemonUITableViewCell
 
         let object = pokemons[indexPath.row]
+        
+        cell.imageViewPokemon!.image = UIImage(named: "pokemon_\(object.id)")
         cell.labelName!.text = object.name
         cell.labelGenus!.text = object.genus
+        
         return cell
     }
 
