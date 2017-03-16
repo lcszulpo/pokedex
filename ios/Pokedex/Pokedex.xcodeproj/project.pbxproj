@@ -20,6 +20,7 @@
 		BF1D5F631E7820E800974DA4 /* pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = BF1D5F611E7820E800974DA4 /* pokemon.json */; };
 		BF1D5F651E7826F900974DA4 /* PokemonSynthetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5F641E7826F900974DA4 /* PokemonSynthetic.swift */; };
 		BF1D5F671E7831BF00974DA4 /* PokemonUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5F661E7831BF00974DA4 /* PokemonUITableViewCell.swift */; };
+		BF8CBEF91E7AD75B00463476 /* PokemonAnalytic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CBEF81E7AD75B00463476 /* PokemonAnalytic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		BF1D5F611E7820E800974DA4 /* pokemon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pokemon.json; path = "../../../react-native/Pokedex/app/assets/data/pokemon.json"; sourceTree = "<group>"; };
 		BF1D5F641E7826F900974DA4 /* PokemonSynthetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonSynthetic.swift; sourceTree = "<group>"; };
 		BF1D5F661E7831BF00974DA4 /* PokemonUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonUITableViewCell.swift; sourceTree = "<group>"; };
+		BF8CBEF81E7AD75B00463476 /* PokemonAnalytic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAnalytic.swift; sourceTree = "<group>"; };
 		CFADDE1F186B0F8798B0B8EE /* Pods_Pokedex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 				BF1D5F3E1E7811DA00974DA4 /* Info.plist */,
 				BF1D5F641E7826F900974DA4 /* PokemonSynthetic.swift */,
 				BF1D5F661E7831BF00974DA4 /* PokemonUITableViewCell.swift */,
+				BF8CBEF81E7AD75B00463476 /* PokemonAnalytic.swift */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				BF1D5F651E7826F900974DA4 /* PokemonSynthetic.swift in Sources */,
 				BF1D5F331E7811DA00974DA4 /* MasterViewController.swift in Sources */,
 				BF1D5F671E7831BF00974DA4 /* PokemonUITableViewCell.swift in Sources */,
+				BF8CBEF91E7AD75B00463476 /* PokemonAnalytic.swift in Sources */,
 				BF1D5F311E7811DA00974DA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,14 +17,11 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-//        self.navigationItem.leftBarButtonItem = self.editButtonItem
-//
-//        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))
-//        self.navigationItem.rightBarButtonItem = addButton
-//        if let split = self.splitViewController {
-//            let controllers = split.viewControllers
-//            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
-//        }
+
+        if let split = self.splitViewController {
+            let controllers = split.viewControllers
+            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
+        }
         
         pokemons = readPokemonsFromJson()
     }
@@ -38,15 +35,9 @@ class MasterViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-//    func insertNewObject(_ sender: Any) {
-//        objects.insert(NSDate(), at: 0)
-//        let indexPath = IndexPath(row: 0, section: 0)
-//        self.tableView.insertRows(at: [indexPath], with: .automatic)
-//    }
-
+    
     // MARK: - Segues
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
@@ -74,7 +65,7 @@ class MasterViewController: UITableViewController {
 
         let object = pokemons[indexPath.row]
         
-        cell.imageViewPokemon!.image = UIImage(named: "pokemon_\(object.id)")
+        cell.imageViewPokemon!.image = UIImage(named: "pokemon_\(object.id!)")
         cell.labelName!.text = object.name
         cell.labelGenus!.text = object.genus
         
@@ -85,15 +76,6 @@ class MasterViewController: UITableViewController {
         // Return false if you do not want the specified item to be editable.
         return false
     }
-
-//    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-//        if editingStyle == .delete {
-//            objects.remove(at: indexPath.row)
-//            tableView.deleteRows(at: [indexPath], with: .fade)
-//        } else if editingStyle == .insert {
-//            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-//        }
-//    }
 
     // MARK: - Functions
     
@@ -107,9 +89,9 @@ class MasterViewController: UITableViewController {
                 if jsonObj != JSON.null {
                     for (key, subJson):(String, JSON) in jsonObj {
                         let pokemonSynthetic = PokemonSynthetic(
-                            id: subJson["id"].intValue,
-                            name: subJson["name"].stringValue,
-                            genus: subJson["genus"].stringValue)
+                            id: subJson["id"].int!,
+                            name: subJson["name"].string!,
+                            genus: subJson["genus"].string!)
                         
                         pokemons.append(pokemonSynthetic)
                     }
