@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Pokemon: {{pokemon.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img
+    style="width: 100%; height: auto"
+    src="assets/images/pokemon_{{pokemon.id}}.png" />
+  <ion-list>
+    <ion-item>
+      <ion-label>
+        #
+      </ion-label>
+      <div item-content>
+        {{ pokemon.id }}
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        Name:
+      </ion-label>
+      <div item-content>
+        {{ pokemon.name }}
+      </div>
+    </ion-item>
+  </ion-list>
+</ion-content>

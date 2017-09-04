@@ -6,25 +6,33 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { PokedexProvider } from '../providers/pokedex/pokedex';
+import {HttpModule} from '@angular/http';
+import {PokemonDetailPage} from '../pages/pokemon-detail/pokemon-detail';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    PokemonDetailPage
   ],
   imports: [
     BrowserModule,
+    HttpModule,
+
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    PokemonDetailPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    PokedexProvider,
   ]
 })
 export class AppModule {}
